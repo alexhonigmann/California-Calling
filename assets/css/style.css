@@ -1,0 +1,590 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Work Sans', sans-serif; */
+}
+
+@font-face {
+    font-family: 'Larish Neue' ;
+    src: url(../fonts/LarishNeueSemibold.woff);
+    src: url(../fonts/Larish\ Neue\ Semibold.woff2);
+}
+
+/* header ****************************/
+.header-box{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+}
+
+.header-text-box{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-text-box img{
+    height: 25vh;
+    width: 100%;
+}
+
+.header-text-box h1,h3, h6{
+    color: white;
+}
+.header-text-box h6{
+    padding: 8vh 0 2vh;
+    
+}
+.header-text-box h3, h6{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2vw;
+}
+.header-text-box h2{
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 5vw;
+}
+.header-text-box h1{
+    font-size: 5vw;
+}
+.header-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20vh;
+}
+.header-logo{
+    margin-left: 10vh;
+}
+.header-link{
+    justify-self: right;
+    margin-right: 15vh;
+}
+.header-link a{
+    padding: 12px  25px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    transition:  .5s;
+}
+.header-link a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* californien map ******************************/
+
+.last-year-box{
+    margin-top: -22px;
+    height: 230vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.last-year-text div{
+    margin-left: 5vw;
+}
+.last-year-text p{
+    font-size: 8vw;
+    font-family: 'Larish Neue';
+    padding:0;
+}
+
+.calif-map-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.calif-map-text{
+    margin-left: 5vw;
+    margin-top: 12vh;
+}
+.calif-map-text h1{
+    font-size: 7vw;
+    margin-top: 4vh;
+    font-family: 'Larish Neue'
+}
+.calif-map-text h5{
+    font-size: 2vw;
+    font-family: 'Work Sans', sans-serif;
+}
+.calif-map-img{
+    margin-top: -2.3vh;
+}
+.calif-map-img img{
+    width: 90%;
+    height: 80%;
+    float: right;
+}
+
+/* stuck ************************************************/
+
+.stuck-doppel-box{
+    width: 100%;
+    height: 200vh;
+}
+.stuck-text{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.stuck-text-one{
+    width: 35vw;
+    margin-top: 35vh;
+}
+.stuck-text-two{
+    width: 35vw;
+    margin-top: 55vh;
+}
+
+.stuck-text-one h1{
+    justify-self: center;
+    font-size: 6vw;
+}
+.stuck-text-one p, .stuck-text-two p{
+    font-size: 1.5vw;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.stuck-galley{
+    position: relative;
+}
+.stuck-galley div{
+    height: 250px;
+}
+.stuck-galley img{
+    height: 90%;
+}
+
+.stuck-img-1{
+    position: absolute;
+    right:9vw;
+    top: -168vh;
+}
+.stuck-img-2{
+    position: absolute;
+    left:20px;
+    top: -122vh;
+    
+}
+.stuck-img-3{
+    position: absolute;
+    right:0;
+    top: -85vh;
+}
+.stuck-img-3 img, .stuck-img-2 img{
+    height: 60%;
+}
+.stuck-img-4{
+    position: absolute;
+    left: 35vh;
+    top: -60vh;
+}
+.stuck-img-4 img{
+    height: 60%;
+}
+.stuck-img-5{
+    position: absolute;
+    right: 20vh;
+    top: -55vh;
+}
+.stuck-img-5 img{
+    height: 70%;
+}
+.stuck-img-6{
+    position: absolute;
+    left:0;
+    top: -20vh;
+}
+.stuck-img-6 img{
+    height: 65%;
+}
+.stuck-img-7{
+    position: absolute;
+    right: 25%;
+    top: 10vh;
+}
+.stuck-img-7 img{
+    height: 100%;
+}
+
+/* golden bear ************************/
+
+.golden-bear{
+    height: 160vh;
+    background-color: black;
+}
+.golden-bear-text{
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.golden-bear-text div{
+    color: white;
+    height: 75vh;
+    padding-top: 17vh;
+}
+.golden-bear-text div:first-of-type{
+    padding-left: 10vw;
+}
+.golden-bear-text div:last-of-type{
+    padding-right: 10vw;
+}
+.golden-bear-text div h1{
+    font-size: 6vw;
+}
+.golden-bear-text div p, .poppy-text-two h6{
+font-family: 'Work Sans', sans-serif;
+}
+.golden-bear-img{
+    position: relative;
+}
+.golden-img-one{
+    width: 800px;
+    position: absolute;
+    left: 10%;
+}
+.golden-img-two{
+    width: 300px;
+    position: absolute;
+    left: 60%;
+    top: 300px;
+    z-index: 200;
+}
+.golden-img-one img, .golden-img-two img{
+    width: 100%;
+}
+
+
+/* poppy bear **********************************/
+.poppy-bear{
+    height: 260vh;
+}
+.circle{
+    overflow: hidden;
+}
+.circle-box{
+    padding-left: 1050px;
+    margin-top: -150px;
+}
+.circle-box img{
+    width: 130%;
+    animation: text-circle 10s linear infinite;
+}
+@keyframes text-circle {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+.poppy-text{
+    margin-top: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.poppy-text-one{
+    margin-left: 10vw;
+}
+.poppy-text-two{
+    margin-right: 10vw;
+    margin-top: 3vh;
+}
+.poppy-text-one h1{
+    font-size: 6vw
+}
+.poppy-text-one p{
+    font-family: 'Work Sans', sans-serif;
+}
+.poppy-text-two h6{
+    font-size: 18px;
+    color: black;
+    margin-top: 5vh;
+}
+.poppy-text-two h3{
+    font-size: 2em;
+    color: #000;
+}
+.poppy-img-one{
+    height: 800px;
+    margin-left: 70%;
+    margin-top: 150px;
+}
+.poppy-img-one img{
+    height: 100%;
+    
+}
+.poppy-img-two{
+    width: 400px;
+    margin-left: 30%;
+    margin-top: -640px;
+}
+.poppy-img-two img{
+    width: 100%;
+}
+/* footer *********************************/
+footer{
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+.footer-text{
+    margin-left: 10vw;
+    margin-top: 10vh;
+    width: 50%;
+    color: white;
+}
+.footer-text p{
+    font-family: 'Work Sans', sans-serif; 
+    padding-bottom: 5vh;
+}
+.footer-text h3{
+    padding-bottom: 5vh;
+    font-size: 3em;
+}
+.footer-text a{
+    font-family: 'Work Sans', sans-serif; 
+    padding: 12px  25px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    transition:  .5s;
+}
+.footer-text a:hover{
+    background-color: white;
+    color: black;
+}
+.date{
+    position: relative;
+
+}
+.date-box{
+    position: absolute;
+    background-color: white;
+    width: 1100px;
+    height: 100px;
+    transform: rotate(45deg);
+    font-size: 4em;
+    right: -200px;
+    top: 270px;
+    font-family: 'Work Sans', sans-serif;
+}
+.date-box p{
+    color: black;
+    text-transform: uppercase;
+    animation: date-text 5s infinite linear;
+    white-space: nowrap;
+    font-family: 'Larish Neue';
+}
+.date-box span{
+    color: white;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+}
+@keyframes date-text {
+    0%{
+      transform: translate(0, 0);
+    }
+    
+    100%{
+      transform: translate(-160%, 0);
+    }
+  }
+.footer-gallery{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: flex-end;
+    margin: 8vh;
+}
+ .social-list {
+    margin-left: 10vh;
+ }
+ .social-list ul{
+    list-style-type: none;
+ }
+ .social-list li{
+    display: inline;
+ }
+ .social-list img{
+    width: 8%;
+ }
+ .footer-img-text h6, p{
+    margin-top: 3vh;
+ }
+ .footer-sponsor li{
+    display: inline;
+ }
+ .footer-sponsor img{
+    width: 20%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+        .header-box{
+            height: 100vh;
+        }
+        .header-text-box h1{
+            font-size: 3em;
+        }  
+        .header-text-box h2{
+            font-size: 3em;
+        }
+        .header-text-box h3, h6{
+            text-align: center;
+            font-size: 4vw;
+        }    
+        .last-year-box{
+            height: 80vh;
+        }
+        .last-year-box p{
+            margin: 0; 
+        }
+        /* californ ****************/
+        .calif-map-text h5{
+            font-size: 1.1em;
+        }
+        .calif-map-box{
+            grid-template-columns: 1fr 1fr;
+        }
+        .calif-map-img{
+            margin-top: 100px;
+        }
+        /* stuck ***************/
+        
+        .stuck-text-one{
+            width: 90%;
+            margin-top: 5vh;
+        }
+        .stuck-text-two{
+            width: 90%;
+            margin-top: 5vh; 
+        }
+        .stuck-text-one h1{
+            justify-self: center;
+            font-size: 3em;
+        }
+        .stuck-text-one p, .stuck-text-two p{
+            font-size: 1.1em;
+        }
+        .stuck-galley div{
+            position: unset;
+            display: block;
+            height: 50%;
+        }
+        .stuck-galley div img{
+            width: 100%;
+        }
+            
+        /* gold bear ******************/
+        .golden-bear-text{
+            padding-left: 5vh;
+            height: 35vh;
+            padding-top: 85vh;
+            display: grid;
+            grid-template-columns:1fr;
+            display: block;
+        }
+        .golden-bear-text div{
+            color: white;
+            padding-top: 0;
+            margin: 0;
+        }
+        .golden-bear-text div:first-of-type{
+            padding-left: 0vw;
+            height: 15vh;
+        }
+        .golden-bear-text div:last-of-type{
+            padding-right: 0vw;
+            height: 0;
+        }
+        .golden-bear-text div h1{
+            font-size: 6vw;
+        }
+        .golden-bear-img{
+            display: flex;
+            position: static;
+            flex-direction: column;
+        }
+        .golden-img-one{    
+            width: 100px;
+            left: 0;
+            position: static;
+            width: 100%;
+        }
+        .golden-img-two{
+            width: 300px;
+            position: static;
+            left: 0;
+            top: 0px;
+            width: 100%;
+        }
+
+        /* poppy bear *****************/
+        .poppy-text{
+            margin-top: 600px;
+            grid-template-columns: 1fr;
+        }
+        .poppy-img-one{
+            display: flex;
+            height: 100%;
+            margin-left: 0;
+            margin-top: 50px;
+        }
+        .poppy-img-one img{
+            width: 100%;
+        }
+        .poppy-img-two{
+            width: 100%;
+            margin-left: 0;
+            margin-top: 0px
+        }
+        /* footer ********************/
+        .date{
+            overflow: hidden;
+        }
+        .footer-text h3{
+            padding-bottom: 5vh;
+            font-size: 2em;
+        }
+        footer{
+            height: 120vh;
+        }
+        .footer-gallery{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .social-list {
+            margin-left: 0;
+            justify-content: center;
+        }
+        .social-list ul{
+            justify-items: center;
+        }
+        .social-list img{
+            width: 30%;
+            justify-self: center;
+        }
+        .footer-sponsor ul{
+            margin: 0;
+            padding: 0;
+        }
+        .footer-sponsor img{
+            width: 30%;
+        }
+        .footer-text{
+            margin-left: 10vw;
+            margin-top: 10vh;
+            width: 80%;
+            color: white;
+        }
+}
