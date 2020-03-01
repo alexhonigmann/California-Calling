@@ -327,13 +327,13 @@ footer{
 }
 .footer-text{
     margin-left: 10vw;
-    margin-top: 10vh;
+    margin-top: 8vh;
     width: 50%;
     color: white;
 }
 .footer-text p{
     font-family: 'Work Sans', sans-serif; 
-    padding-bottom: 5vh;
+    padding-bottom: 4vh;
 }
 .footer-text h3{
     padding-bottom: 5vh;
@@ -359,7 +359,7 @@ footer{
 .date-box{
     position: absolute;
     background-color: white;
-    width: 1100px;
+    width: 1000px;
     height: 100px;
     transform: rotate(45deg);
     font-size: 4em;
@@ -392,7 +392,7 @@ footer{
     justify-content: space-between;
     color: white;
     align-items: flex-end;
-    margin: 8vh;
+    margin: 12vh;
 }
  .social-list {
     margin-left: 10vh;
