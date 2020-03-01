@@ -464,10 +464,12 @@ footer{
         .stuck-text-one{
             width: 90%;
             margin-top: 5vh;
+            margin-left: 5vw;
         }
         .stuck-text-two{
             width: 90%;
             margin-top: 5vh; 
+            margin-left: 5vw;
         }
         .stuck-text-one h1{
             justify-self: center;
@@ -516,13 +518,11 @@ footer{
             flex-direction: column;
         }
         .golden-img-one{    
-            width: 100px;
+            width: 100%;
             left: 0;
             position: static;
-            width: 100%;
         }
         .golden-img-two{
-            width: 300px;
             position: static;
             left: 0;
             top: 0px;
@@ -547,6 +547,9 @@ footer{
             width: 100%;
             margin-left: 0;
             margin-top: 0px
+        }
+        .poppy-text-two{
+            margin-left: 5vh;
         }
         /* footer ********************/
         .date{
