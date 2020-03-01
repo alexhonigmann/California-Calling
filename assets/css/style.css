@@ -392,10 +392,10 @@ footer{
     justify-content: space-between;
     color: white;
     align-items: flex-end;
-    margin: 12vh;
 }
  .social-list {
-    margin-left: 10vh;
+    margin-top: 10vh;
+    margin-left: 20vh;
  }
  .social-list ul{
     list-style-type: none;
