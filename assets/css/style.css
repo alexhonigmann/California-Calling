@@ -498,7 +498,7 @@ footer{
         }
         .golden-bear-text div{
             color: white;
-            padding-top: 0;
+            padding-top: 10px;
             margin: 0;
         }
         .golden-bear-text div:first-of-type{
@@ -549,7 +549,7 @@ footer{
             margin-top: 0px
         }
         .poppy-text-two{
-            margin-left: 5vh;
+            margin-left: 3vh;
         }
         /* footer ********************/
         .date{
@@ -585,7 +585,7 @@ footer{
             width: 30%;
         }
         .footer-text{
-            margin-left: 10vw;
+            margin-left: 5vw;
             margin-top: 10vh;
             width: 80%;
             color: white;
